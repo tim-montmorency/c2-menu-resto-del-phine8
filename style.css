@@ -1,7 +1,7 @@
 /**
  * MENU DE RESTAURANT
- * Nom de l'étudiant : [Votre nom]
- * Date : [Date]
+ * Nom de l'étudiant : Delphine Gagnon
+ * Date : 28 janvier 2026
 
    Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
  */
@@ -27,3 +27,110 @@ body {
 /* ========================================
    VOTRE CODE CSS ICI
    ======================================== */
+
+
+.nom_menu {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;  
+}
+
+.image_resto {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+header {
+    background-color: black;
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+.colonne {
+   width: 800px;
+   display: block;
+   margin: auto;
+   background-color: black;
+   color: white;
+   padding: 50px;
+   
+    
+}
+
+h2 {
+    font-size: 41px;
+    font-family: 'Orbitron';  
+}
+
+h1 {
+    font-family: 'Orbitron';
+    font-weight: 900;
+}
+
+li {
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.prix {
+    text-align: end;
+}
+
+.description {
+    color: lightslategrey;
+}
+
+.separateur {
+   border-color: orange;
+   border-radius: 10px;
+   border-style: solid;
+   padding: 30px;
+   margin: 30px;
+}
+
+.separateur:hover {
+    background-color: lightgrey;
+    border-color: darkorange;
+}
+
+
+.separateur:hover h2{
+   color: black;
+}
+
+.separateur:hover li{
+    color: darkorange;
+}
+
+.separateur:hover .description{
+    color: black;
+}
+
+.separateur:hover .prix{
+    color: black;
+}
+
+.badge {
+   border-color: orange;
+   border-radius: 10px;
+   border-style: solid;
+   margin: 0 70% 0 0;
+   padding: 5px 0 5px 4%;
+   font-family: 'Orbitron';
+   font-size: medium;
+   background-color: lightgrey;
+   color: black;
+}
+
+.separateur:hover .badge{
+    color: white;
+    border-color: darkorange;
+    background-color: black;
+}
